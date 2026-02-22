@@ -40,12 +40,36 @@ This is a simple E-Commerce website built using:
 - MySQL Database
 - XAMPP (Local Server)
 
-##  Project Structure
-- /admin → Admin Panel
-- /pages → User Pages
-- /includes → Database Connection
-- /css → Styling
-- /images → Product Images
+ ## Follow these steps to run the project locally:
+
+1. Install XAMPP (Apache & MySQL).
+2. Start Apache and MySQL from XAMPP Control Panel.
+3. Copy the project folder into:
+   C:\xampp\htdocs\
+4. Open phpMyAdmin and create a database named:
+   ecommerce
+5. Import the provided SQL file (products & users tables).
+6. Open browser and run:
+   http://localhost/ecommerce
+
+ Project Structure
+
+ecommerce/
+│── index.php → Displays all products
+│── pages/
+│   └── cart.php → Handles cart operations
+│── admin/
+│   └── login.php → Admin login page
+│── includes/
+│   └── db.php → Database connection
+│── images/ → Product images
+│── README.md → Project documentation
+
+
+ Admin Login (Demo)
+
+Email: admin@gmail.com
+Password: 1234
 
 ##  Developed By
 Shireesha
